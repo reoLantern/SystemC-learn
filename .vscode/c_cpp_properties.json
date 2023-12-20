@@ -1,0 +1,21 @@
+{
+    "env": {
+        // "GCC_PATH": "/home/utils/gcc-11.4.0",
+    },
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${env:SYSTEMC_HOME}/include",
+                "${env:SYSTEMC_HOME}/lib-linux64"
+            ],
+            "compilerPath": "/usr/bin/g++",
+            "defines": [],
+            "cStandard": "gnu23",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
